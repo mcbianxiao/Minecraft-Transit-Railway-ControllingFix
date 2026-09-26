@@ -405,13 +405,14 @@ Not yet exercised at runtime:
   `LongArray` with identical values; `LastUpdate` on those chunks moved, so the write went
   through the mod's own save path rather than the upgrade's NBT copy. Data first written by
   26.1.2 in a fresh world has been through many reloads in play.
-- Planes, lifts, and the PIDS kinds not yet placed. Cable cars and boats are done: stations,
-  depot and route configuration and the vehicles running, on a NeoForge server with clients
-  attached, in multiplayer. Escalators work in singleplayer and multiplayer.
+- Lifts, and the PIDS kinds not yet placed. Planes work. Cable cars and boats are done:
+  stations, depot and route configuration and the vehicles running, on a NeoForge server with
+  clients attached, in multiplayer. Escalators work in singleplayer and multiplayer.
   Signalling is done: signals and decorative lights, trains holding for an occupied section.
   A variety of PIDS have been configured and show arrivals. Two players have played the whole
   of the above together on a NeoForge server, building the same elements and riding the trains,
-  with nothing out of place.
+  with nothing out of place. By 2026-09-26 the port had carried two weeks of multiplayer play on
+  26.1.2 with the mod behaving as expected throughout.
 
 Nothing is known to be broken. The last item on that list was a pair of text sites that drew
 into the world buffer rather than the screen: the warning marker in
@@ -437,7 +438,7 @@ What remains, largest first:
 
 | Item | Needs a client? | Notes |
 |---|---|---|
-| Everything past a single train line | yes | Planes, lifts, the remaining PIDS kinds |
+| Lifts and the remaining PIDS kinds | yes | Not yet confirmed one by one |
 
 The "needs a client" column is the important one. Everything marked no can be finished against
 the compiler. Everything marked yes compiles just as happily when it is wrong, and shows up only
@@ -716,7 +717,7 @@ Note that Gradle did not consider the new filter an input change and reported
 
 The mod builds and runs on both loaders, a train completes a route, block entity settings
 survive a world reload, and recipes work. All four now hold. What keeps the section open is the
-breadth of the mod past a single line, listed under *State*.
+few features not yet confirmed one by one, listed under *State*.
 
 **Pitfall**
 

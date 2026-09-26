@@ -25,6 +25,7 @@
 >   configuration, and the cars running
 > - Boats, end to end the same way, in multiplayer
 > - Escalators, in singleplayer and multiplayer
+> - Planes
 > - Iris shader packs, including switching a pack on or off while in the world
 > - Multiplayer: two players on a NeoForge server, both building the same elements and riding the
 >   trains, with nothing out of place
@@ -32,10 +33,12 @@
 > - The vehicle selector's warning marker for a car that no longer fits the siding
 > - The same singleplayer gameplay on Fabric: the world loads, rails and the dashboard work, and
 >   trains run their routes
+> - Two weeks of multiplayer play on 26.1.2, with the mod behaving as expected throughout
 >
 > **Known gaps**
 >
-> - Planes, lifts, the remaining PIDS kinds, and everything else not listed above are untested
+> - Lifts, the remaining PIDS kinds, and anything else not listed above have not been confirmed
+>   one by one
 >
 > For the current state of the port in detail, see [Migrations](docs/MIGRATIONS.md).
 
